@@ -13,5 +13,5 @@ app.use(bodyParser.json());
 app.use('/api/dictionary', dictionaryRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
